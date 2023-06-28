@@ -129,7 +129,7 @@
         ></video>
       </div>
       <div class="container-fluid g-0 bg-body-tertiary">
-        <div class="col-10 offset-1 offset-xl-2 py-md-5">
+        <div class="col-10 offset-1 offset-xl-2 pt-5 py-md-5">
           <div class="row g-0">
             <img
               class="col-md-5 col-xl-5 img-fluid"
@@ -164,7 +164,7 @@
         </div>
       </div>
       <div class="container-fluid g-0 py-3">
-        <h2 class="text-center pb-lg-5 my-2 fs-1">How can Vendemo help you?</h2>
+        <h2 class="text-center pb-3 pb-lg-5 my-2 fs-1">How can Vendemo help you?</h2>
         <div class="row g-0 mt-md-5 mb-5">
           <div
             class="col-md-5 col-xl-4 offset-md-1 offset-xl-2 mt-xl-3 px-5 px-md-2"
@@ -241,84 +241,75 @@
         </div>
       </div>
       <div
-        class="text-center text-md-start container-fluid g-0 mt-5 mt-md-0 mb-5 pb-md-5 pt-5 pt-md-0 bg-body-tertiary">
-        <div class="mx-3 ">
-          <div class="row offset-md-2 g-0 my-5 my-md-0 pt-5 pt-md-0">
-            <div class="col-md-4">
-              <h3 class="mt-5 my-md-5 pt-5">
-                Find out how secure your organization is!
-              </h1>
-              <p>
-                You can book a free security scan with one of our experts.
-                During this meeting we will check how secure your organization
-                is and give you an advice to improve your security.
-              </p>
-              <p>
-                Please fill in the form and we will contact you as soon as
-                possible!
-              </p>
-            </div>
-            <div class="col-md-4  d-flex mt-md-5 pt-md-5">
-              <div class="ps-md-5">
-                <form action="">
+        class="text-center text-md-start container-fluid g-0 mt-5 mt-md-0 mb-5 pb-md-5 pt-5 pt-md-0 bg-body-tertiary"
+      >
+        <div class="row offset-md-2 g-0 my-5 my-md-0 pt-5 pt-md-0">
+          <div class="col-md-4">
+            <h3 class="mt-5 my-md-5 pt-5">
+              Find out how secure your organization is!
+            </h3>
+            <p>
+              You can book a free security scan with one of our experts. During
+              this meeting we will check how secure your organization is and
+              give you an advice to improve your security.
+            </p>
+            <p>
+              Please fill in the form and we will contact you as soon as
+              possible!
+            </p>
+          </div>
+          <div class="col-md-4 d-flex mt-md-5 pt-md-5">
+            <div class="ps-md-5">
+              <form action="">
+                <input class="mb-3" type="text" placeholder="Voornaam" /><br />
+                <input
+                  class="mb-3"
+                  type="text"
+                  placeholder="Achternaam"
+                /><br />
+                <input class="mb-3" type="text" placeholder="Bedrijf" /><br />
+                <input
+                  class="mb-3"
+                  type="email"
+                  placeholder="E-mailadres"
+                /><br />
+                <input
+                  class="mb-3"
+                  type="tel"
+                  placeholder="Telefoonnummer"
+                /><br />
+                <div class="form-check mb-3 d-flex">
                   <input
-                    class="mb-3"
-                    type="text"
-                    placeholder="Voornaam"
-                  /><br />
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    id="check1"
+                    name="check1"
+                    value="promos"
+                  />
+                  <label class="form-check-label" for="check1">
+                    Yes, {RESELLER_NAME} may contact me about promotions,
+                    products and services.
+                  </label>
+                </div>
+                <div class="form-check mb-3 d-flex">
                   <input
-                    class="mb-3 "
-                    type="text"
-                    placeholder="Achternaam"
-                  /><br />
-                  <input
-                    class="mb-3 "
-                    type="text"
-                    placeholder="Bedrijf"
-                  /><br />
-                  <input
-                    class="mb-3 "
-                    type="email"
-                    placeholder="E-mailadres"
-                  /><br />
-                  <input
-                    class="mb-3 "
-                    type="tel"
-                    placeholder="Telefoonnummer"
-                  /><br />
-                  <div class="form-check mb-3 d-flex">
-                    <input
-                      class="form-check-input me-2"
-                      type="checkbox"
-                      id="check1"
-                      name="check1"
-                      value="promos"
-                    />
-                    <label class="form-check-label" for="check1">
-                      Yes, {RESELLER_NAME} may contact me about promotions,
-                      products and services.
-                    </label>
-                  </div>
-                  <div class="form-check mb-3 d-flex">
-                    <input
-                      class="form-check-input me-2"
-                      type="checkbox"
-                      id="check2"
-                      name="check2"
-                      value="contact"
-                    />
-                    <label class="form-check-label" for="check2">
-                      Yes, Vendemo may contact me about promotions, products and
-                      services.
-                    </label>
-                  </div>
-                  <button
-                    class="btn btn-dark col-8 justify-content-center py-3 mt-3"
-                  >
-                    Send
-                  </button>
-                </form>
-              </div>
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    id="check2"
+                    name="check2"
+                    value="contact"
+                  />
+                  <label class="form-check-label" for="check2">
+                    Yes, Vendemo may contact me about promotions, products and
+                    services.
+                  </label>
+                </div>
+                <button
+                  class="btn btn-dark col-8 justify-content-center py-3 mt-3"
+                >
+                  Send
+                </button>
+              </form>
             </div>
           </div>
         </div>
