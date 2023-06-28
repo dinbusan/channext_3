@@ -1,0 +1,33 @@
+$primary: maroon;
+$btn-padding-x: 1rem;
+$btn-font-size: 12px;
+$btn-font-weight: 700;
+
+.bg-image {
+  background: url("./assets/images/header.png") no-repeat;
+  background-size: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Concert One", cursive;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  background: white;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
